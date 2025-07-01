@@ -22,7 +22,7 @@ def about():
 def view():
     data = load_data()
     return data
-
+# if we want see specific patient using path parameter
 @app.get('/patient/{patient_id}')
 def view_patient(patient_id:str=Path(...,description='description in db',example='P001')):
     #load all patient data
