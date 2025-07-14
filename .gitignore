@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Virtual environments (venv, conda, pipenv)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Installed packages (site-packages)
+site-packages/
+
+# IDE & Editor files
+.vscode/
+.idea/
+.DS_Store
+mahesh.py
