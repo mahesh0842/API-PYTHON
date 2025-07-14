@@ -27,4 +27,3 @@ print(patient1.address.pin)
 print(patient1.name)
 
 
-
